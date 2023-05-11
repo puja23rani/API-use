@@ -1,0 +1,32 @@
+body {
+  background-image: url("back3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner h2 {
+  font-family: "Lucida Calligraphy";
+  font-size: 48px;
+  margin-top: 180px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.panel {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.card {
+  background-color: white;
+  width: 400px;
+  margin: 20px auto;
+  /* border: 2px solid black; */
+  text-align: center;
+  box-shadow: 8px 8px #50777c;
+}
+.productimg {
+  margin: auto 90px;
+  width: 200px;
+  height: 200px;
+}
